@@ -41,27 +41,11 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="oum-fR-e6q" id="css-kO-uNh"/>
-                        <segue destination="8Uw-tV-8wj" kind="show" id="oYR-mu-zoW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="123.68815592203899"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="JDS-2m-Be6">
-            <objects>
-                <viewController id="8Uw-tV-8wj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="Fba-7E-RTn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Oue-PT-eb4"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gKr-Iy-KOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="457" y="821"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gjn-Wi-O4q">
