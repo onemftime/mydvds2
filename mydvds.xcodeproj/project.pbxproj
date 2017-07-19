@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C3DDAC1F1F17F000AF4DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3DDAB1F1F17F000AF4DCE /* AppDelegate.swift */; };
+		18C3DDAE1F1F17F000AF4DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3DDAD1F1F17F000AF4DCE /* ViewController.swift */; };
+		18C3DDB11F1F17F000AF4DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3DDAF1F1F17F000AF4DCE /* Main.storyboard */; };
+		18C3DDB41F1F17F000AF4DCE /* mydvds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C3DDB21F1F17F000AF4DCE /* mydvds.xcdatamodeld */; };
+		18C3DDB61F1F17F000AF4DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C3DDB51F1F17F000AF4DCE /* Assets.xcassets */; };
+		18C3DDB91F1F17F000AF4DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3DDB71F1F17F000AF4DCE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C3DDA81F1F17F000AF4DCE /* mydvds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mydvds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3DDAB1F1F17F000AF4DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C3DDAD1F1F17F000AF4DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C3DDB01F1F17F000AF4DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C3DDB31F1F17F000AF4DCE /* mydvds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mydvds.xcdatamodel; sourceTree = "<group>"; };
+		18C3DDB51F1F17F000AF4DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C3DDB81F1F17F000AF4DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C3DDBA1F1F17F000AF4DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C3DDA51F1F17F000AF4DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C3DD9F1F1F17F000AF4DCE = {
+			isa = PBXGroup;
+			children = (
+				18C3DDAA1F1F17F000AF4DCE /* mydvds */,
+				18C3DDA91F1F17F000AF4DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C3DDA91F1F17F000AF4DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C3DDA81F1F17F000AF4DCE /* mydvds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C3DDAA1F1F17F000AF4DCE /* mydvds */ = {
+			isa = PBXGroup;
+			children = (
+				18C3DDAB1F1F17F000AF4DCE /* AppDelegate.swift */,
+				18C3DDAD1F1F17F000AF4DCE /* ViewController.swift */,
+				18C3DDAF1F1F17F000AF4DCE /* Main.storyboard */,
+				18C3DDB51F1F17F000AF4DCE /* Assets.xcassets */,
+				18C3DDB71F1F17F000AF4DCE /* LaunchScreen.storyboard */,
+				18C3DDBA1F1F17F000AF4DCE /* Info.plist */,
+				18C3DDB21F1F17F000AF4DCE /* mydvds.xcdatamodeld */,
+			);
+			path = mydvds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C3DDA71F1F17F000AF4DCE /* mydvds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3DDBD1F1F17F000AF4DCE /* Build configuration list for PBXNativeTarget "mydvds" */;
+			buildPhases = (
+				18C3DDA41F1F17F000AF4DCE /* Sources */,
+				18C3DDA51F1F17F000AF4DCE /* Frameworks */,
+				18C3DDA61F1F17F000AF4DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mydvds;
+			productName = mydvds;
+			productReference = 18C3DDA81F1F17F000AF4DCE /* mydvds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C3DDA01F1F17F000AF4DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jeremy;
+				TargetAttributes = {
+					18C3DDA71F1F17F000AF4DCE = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 18C3DDA31F1F17F000AF4DCE /* Build configuration list for PBXProject "mydvds" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C3DD9F1F1F17F000AF4DCE;
+			productRefGroup = 18C3DDA91F1F17F000AF4DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C3DDA71F1F17F000AF4DCE /* mydvds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C3DDA61F1F17F000AF4DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3DDB91F1F17F000AF4DCE /* LaunchScreen.storyboard in Resources */,
+				18C3DDB61F1F17F000AF4DCE /* Assets.xcassets in Resources */,
+				18C3DDB11F1F17F000AF4DCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C3DDA41F1F17F000AF4DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3DDB41F1F17F000AF4DCE /* mydvds.xcdatamodeld in Sources */,
+				18C3DDAE1F1F17F000AF4DCE /* ViewController.swift in Sources */,
+				18C3DDAC1F1F17F000AF4DCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C3DDAF1F1F17F000AF4DCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3DDB01F1F17F000AF4DCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C3DDB71F1F17F000AF4DCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C3DDB81F1F17F000AF4DCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C3DDBB1F1F17F000AF4DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C3DDBC1F1F17F000AF4DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C3DDBE1F1F17F000AF4DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VESFM88WFB;
+				INFOPLIST_FILE = mydvds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeremy.mydvds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C3DDBF1F1F17F000AF4DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VESFM88WFB;
+				INFOPLIST_FILE = mydvds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeremy.mydvds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C3DDA31F1F17F000AF4DCE /* Build configuration list for PBXProject "mydvds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3DDBB1F1F17F000AF4DCE /* Debug */,
+				18C3DDBC1F1F17F000AF4DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3DDBD1F1F17F000AF4DCE /* Build configuration list for PBXNativeTarget "mydvds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3DDBE1F1F17F000AF4DCE /* Debug */,
+				18C3DDBF1F1F17F000AF4DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18C3DDB21F1F17F000AF4DCE /* mydvds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18C3DDB31F1F17F000AF4DCE /* mydvds.xcdatamodel */,
+			);
+			currentVersion = 18C3DDB31F1F17F000AF4DCE /* mydvds.xcdatamodel */;
+			path = mydvds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18C3DDA01F1F17F000AF4DCE /* Project object */;
+}
