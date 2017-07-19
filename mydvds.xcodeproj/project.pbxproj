@@ -13,6 +13,8 @@
 		18C3DDB41F1F17F000AF4DCE /* mydvds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C3DDB21F1F17F000AF4DCE /* mydvds.xcdatamodeld */; };
 		18C3DDB61F1F17F000AF4DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C3DDB51F1F17F000AF4DCE /* Assets.xcassets */; };
 		18C3DDB91F1F17F000AF4DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3DDB71F1F17F000AF4DCE /* LaunchScreen.storyboard */; };
+		18C3DDC31F1F1C2B00AF4DCE /* picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18C3DDC21F1F1C2B00AF4DCE /* picture.jpg */; };
+		18C3DDC51F1F1D2600AF4DCE /* DVDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3DDC41F1F1D2600AF4DCE /* DVDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18C3DDB51F1F17F000AF4DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C3DDB81F1F17F000AF4DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C3DDBA1F1F17F000AF4DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C3DDC21F1F1C2B00AF4DCE /* picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = picture.jpg; path = ../../picture.jpg; sourceTree = "<group>"; };
+		18C3DDC41F1F1D2600AF4DCE /* DVDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		18C3DDAA1F1F17F000AF4DCE /* mydvds */ = {
 			isa = PBXGroup;
 			children = (
+				18C3DDC21F1F1C2B00AF4DCE /* picture.jpg */,
 				18C3DDAB1F1F17F000AF4DCE /* AppDelegate.swift */,
 				18C3DDAD1F1F17F000AF4DCE /* ViewController.swift */,
+				18C3DDC41F1F1D2600AF4DCE /* DVDViewController.swift */,
 				18C3DDAF1F1F17F000AF4DCE /* Main.storyboard */,
 				18C3DDB51F1F17F000AF4DCE /* Assets.xcassets */,
 				18C3DDB71F1F17F000AF4DCE /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				18C3DDB91F1F17F000AF4DCE /* LaunchScreen.storyboard in Resources */,
 				18C3DDB61F1F17F000AF4DCE /* Assets.xcassets in Resources */,
+				18C3DDC31F1F1C2B00AF4DCE /* picture.jpg in Resources */,
 				18C3DDB11F1F17F000AF4DCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				18C3DDB41F1F17F000AF4DCE /* mydvds.xcdatamodeld in Sources */,
 				18C3DDAE1F1F17F000AF4DCE /* ViewController.swift in Sources */,
 				18C3DDAC1F1F17F000AF4DCE /* AppDelegate.swift in Sources */,
+				18C3DDC51F1F1D2600AF4DCE /* DVDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
